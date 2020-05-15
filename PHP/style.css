@@ -1,0 +1,43 @@
+#main_container {
+    margin-top: 2%;
+}
+
+#kontrolki_container {
+    width: 70%;
+}
+
+#kontrolki_list {
+    padding-left: 3%;
+}
+
+#Lewy {
+    display: flex;
+    justify-content: center;
+}
+
+#main_links {
+    width: 70%;
+}
+
+#choose_colors {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.modal-header {
+    background-color: #292b2c;
+    color: white;
+}
+
+#search-col {
+    display: flex;
+}
+
+
+
+@media all and (max-width: 900px) {
+    #kontrolki_container {
+        width: 100%;
+    }
+}
