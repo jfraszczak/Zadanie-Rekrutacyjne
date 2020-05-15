@@ -58,6 +58,17 @@ function updateVAT(){
     }
 }
 
+
+$('#netto_button').click(function(){
+    var rows = $(".row_vat");
+    for(var i = 0; i < rows.length; i++){
+        var netto_price = parseFloat($(rows[i]).find(".kwota_netto").text());
+        if(netto_price > 1000){
+            $(rows[i]).css("background-color", "#80ffcc");
+        }
+    }
+});
+
 $('#my-search').keyup(function(){
   var table = $("#table_kontrahenci");
   var value = $("#my-search").val();
