@@ -118,6 +118,10 @@
     </tbody>
     </table>
 
+    <br>
+
+    <button id="netto_button"  type="button" class="btn btn-dark">Kwota netto powyżej 1000zł</button>
+
 <?php
     bottom();
 ?>
